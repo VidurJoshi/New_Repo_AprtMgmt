@@ -22,6 +22,9 @@ const Details: React.FC<HomeScreenProps> = ({ navigation }) => {
           <View style={{height:'40%',width:'80%',borderRadius:moderateScale(20),backgroundColor:'white',justifyContent:'center',alignItems:'center'}}>
           <Image source={require('../Assets/BlueTick.png')}/>
           <Text style={{fontSize:moderateScale(20),fontWeight:'bold'}}>Booked Successfully</Text>
+          <View>
+          
+          </View>
           </View>
           <Text>Hello!</Text>
           <Button title="Hide modal" onPress={toggleModal} />
